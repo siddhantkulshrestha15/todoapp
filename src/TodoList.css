@@ -1,0 +1,56 @@
+body{
+    background-color: lightblue;
+
+}
+.box{
+    background-color: navy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+    height: 70vh;
+}
+.heading{
+    color: whitesmoke;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+}
+.input{
+    margin-left: 2vw;
+}
+.inp1{
+    width:50vw;
+    height:4vh;
+    border-radius: 5px;
+    text-align:justify;
+}
+.inp2{
+    width: 5vw;
+    height: 5vh;
+    border-radius: 5px;
+    background-color: rgb(41, 197, 41);
+}
+.listpara{
+    background-color: seagreen;
+    color: white;
+    width: 15vw;
+    height: 4vh;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    border-radius: 5px;
+    text-align: center;
+    font-size: larger;
+    padding-top: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.data{
+    background-color: lightblue;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    padding: 1px 4px 4px 4px;
+}
+.removeall{
+    float: right;
+    margin-right: 3vw;
+}
